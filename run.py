@@ -58,8 +58,8 @@ def user_guesses(board):
         print("=" * 22)
 
         try:
-            guess_ship_row = int(input('Guess ship Row: '))
-            guess_ship_col = int(input('Guess ship Col: '))
+            guess_ship_row = int(input('Guess ship Row:\n '))
+            guess_ship_col = int(input('Guess ship Col:\n '))
         except ValueError as e:
             print(f"Invalid data: {e}, please try again.\n")
             return False
