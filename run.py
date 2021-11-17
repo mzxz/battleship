@@ -19,7 +19,7 @@ player_name = Battelship()
 player_name = input("Please enter your name : \n")
 print(f"welcome To Battelship Game:\n {player_name}")
 print('='*22)
-print("Pleas start the program again! ")
+print("Please start the program again! ")
 print("Also choose int number between 0 to 4!")
 print('='*22)
 
