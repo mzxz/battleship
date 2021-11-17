@@ -19,6 +19,9 @@ player_name = Battelship()
 player_name = input("Please enter your name : \n")
 print(f"welcome To Battelship Game:\n {player_name}")
 print('='*22)
+print("Pleas start the program again! ")
+print("Also choose int number between 0 to 4!")
+print('='*22)
 
 
 def print_a(board):
@@ -61,7 +64,9 @@ def user_guesses(board):
             guess_ship_row = int(input('Guess ship Row:\n '))
             guess_ship_col = int(input('Guess ship Col:\n '))
         except ValueError as e:
-            print(f"Invalid data: {e}, please try again.\n")
+            print(f"Invalid data: {e}, please try again.\n ")
+            print("Pleas start the program again! ")
+            print("Also choose int number between 0 to 4!")
             return False
 
         if guess_ship_row == ship_row and guess_ship_col == ship_col:
