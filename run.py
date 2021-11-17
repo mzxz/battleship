@@ -17,6 +17,8 @@ class Battelship:
 
 player_name = Battelship()
 player_name = input("Please enter your name : \n")
+print(f"welcome To Battelship Game{player_name}")
+print('='*22)
 
 
 def print_a(board):
