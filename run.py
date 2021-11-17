@@ -99,5 +99,3 @@ def user_guesses(board):
 
 
 user_guesses(board)
-
-
