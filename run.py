@@ -17,7 +17,12 @@ player_name = input("Please enter your name : \n")
 
 
 def print_a(board):
-    pass
+    for row in board:
+        print(" ".join(row))
+    return board
+
+
+print_a(board)
 
 
 def random_row(board):
