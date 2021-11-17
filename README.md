@@ -1,31 +1,59 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Battleship Game
 
-Welcome mzxz,
+Battelship game is a termminal game on Heroku
+Computer hidde  a ship and you try to find it befor you run out of turns
+You have 4 turns
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+## All the images for a teating and response desgin in battelship repo docs folder
 
-## Reminders
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+## How to play
+Computer hidde  a ship and you try to find it befor you run out of turns
+You have 4 turns befor the game is over.
+if you miss 4 the bord will add X mark to the location that you have missed.
+if you find the ship you win.
 
-## Creating the Heroku app
+## Features 
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+- Random point generator using randit from random
+- accept input
+- validate input
+   You will receive errors if your guesses(out of range, string or guess same numbers).
 
-1. `heroku/python`
-2. `heroku/nodejs`
+## Fueure Features 
+- create to board and play against a computer
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+## Data model
+- I have used a class and functions to create the program
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+## Testing
+I have test the program manually:
+- Passed code through PEP 8 and passed
+- in the terminal and code institute Heroku terminal
 
-Connect your GitHub repository and deploy as normal.
 
-## Constraints
+## Bugs-
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+I have fixed some input errors entering string value.
 
------
-Happy coding!
+---------------------------------------------------------------------------------------------------------------------
+## Validator Testing
+the code passed PEP8 testing
+
+## -Deployment-
+- heroko
+- sitting - configvar
+- add key - PORT 8000
+- Buildpacks - add python then nodejs - save changes
+- go to deploy - deplyement method - github - connect - choose repo name - connect
+- choose branch - main -- deploy branch
+-view
+
+---------------------------------------------------------------------------------------------------------------------
+
+## Credits 
+
+- Codeacademy battelship challenge https://www.codecademy.com/
+ 
+- Code institute battelshipe scope and readme.md
+
